@@ -28,3 +28,8 @@
 17. private int status;  
 18. The class belongs to the Student class
 19.  public Book(String title, double price) this constructor has 2 parameters and they are of type string and double
+20. The types for the Book class would be String and double and the name of the field would be the word that follows after the type
+21. public Pet(String petsName)
+    {
+     pet = petName
+    }   
