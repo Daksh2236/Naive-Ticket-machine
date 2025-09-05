@@ -13,3 +13,6 @@
 12. Int
     Student
     Server
+13. alive
+    tutor
+    game
