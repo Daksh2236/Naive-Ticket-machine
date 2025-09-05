@@ -10,9 +10,16 @@
    I think the message is clear because it tells us what we are missing and it shows red boxes where the code is missing.
 10. The constructor for the class is public TicketMachine(int cost)
 11. Two features of the constructor that make it look different than the method is that it is in a yellow box and it has the same name as the class
-12. Int
+12. I think these are the types of the fields
+    Int
     Student
     Server
-13. alive
+13. The names of the fields are:
+    alive
     tutor
     game
+14. I would say these are the class names:
+    Student
+    Server
+    Person
+    Game
