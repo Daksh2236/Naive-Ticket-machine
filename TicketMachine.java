@@ -17,7 +17,8 @@
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
-
+    // The date of the printed ticket
+    private int date;
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
@@ -74,5 +75,10 @@
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+    
+    public TicketMachine(String month, int day, int year)
+    {
+        date = date;
     }
 }
