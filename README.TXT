@@ -27,3 +27,4 @@
 16. It is always necessary to have a semicolon at the end of each field declaration because then you will proceed to get an error
 17. private int status;  
 18. The class belongs to the Student class
+19.  public Book(String title, double price) this constructor has 2 parameters and they are of type string and double
