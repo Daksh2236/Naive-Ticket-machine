@@ -25,17 +25,18 @@
     private int discount;
     // Alive
     private boolean alive;
+    // Insert amount of money prompt
+    private int prompt;
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int price)
+    public TicketMachine()
     {
-        price = price;
+        price = 1000;
         balance = 0;
         total = 0;
-        score = 0;
     }
 
     /**
@@ -74,7 +75,7 @@
         System.out.println("My cat has green eyes.");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.printf("# %d cents.%n", price);
         System.out.println("My cat has green eyes.");
         System.out.println();
 
@@ -114,5 +115,27 @@
     public void setAge(boolean status)
     {
         alive = status;
+    }
+    
+    public void prompt()
+    {
+      System.out.println("Please insert the correct amount of money.");
+    }
+    
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is" + price + "cents.");
+    }
+    
+    public TicketMachine(int cost)
+    {
+        price = price;
+        balance = 0;
+        total = 0;
+    }
+    
+    public void empty()
+    {
+       total = 0; 
     }
 }

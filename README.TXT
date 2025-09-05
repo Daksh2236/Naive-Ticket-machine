@@ -40,3 +40,9 @@
 28. The main difference between the methods is their body
 29. The insertMoney and printTicket methods dont have a return statement because when you insert an amount the return statement is the balance and for the print your not looking to get a value back   
 36. The price is still set to 0
+39. If we were to add quotes around the price when we will call the print method price will also be printed
+40. If we were to make it this version System.out.println("# price cents."); what ever is in the quotes get printed
+42. it shows the the same output because in the price field it doesn't have a value
+43. it does print the same output and the %d means that it is going to insert the next argument as an integer value and n% means 'end the line'
+44. when i constructed the the ticket machine i no longer have to insert a value and the showPrice method is now able to show the price because price now has a value of 1000
+46. This method does not take any parameters because it doesn't need another variable and it is a mutator beacause it has void which accessors does not
