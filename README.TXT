@@ -25,3 +25,4 @@
     Game
 15. The order of which the three words are place does matter because if we look at the class diagram after you can see there are red lines meaning that there are errors
 16. It is always necessary to have a semicolon at the end of each field declaration because then you will proceed to get an error
+17. private int status;  
