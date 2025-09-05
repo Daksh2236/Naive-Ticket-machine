@@ -10,3 +10,6 @@
    I think the message is clear because it tells us what we are missing and it shows red boxes where the code is missing.
 10. The constructor for the class is public TicketMachine(int cost)
 11. Two features of the constructor that make it look different than the method is that it is in a yellow box and it has the same name as the class
+12. Int
+    Student
+    Server
