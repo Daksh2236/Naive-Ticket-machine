@@ -32,4 +32,7 @@
 21. public Pet(String petsName)
     {
      pet = petName
-    }   
+    } 
+23. The difference between the headers is that they don't have the same variable name and in the body they do not have the same statement
+24. How much money is in the ticket machine
+25. The return statement does not need to be changed    

@@ -36,14 +36,14 @@
      */
     public int getPrice()
     {
-        return price;
+         return price;
     }
 
     /**
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getBalance()
+    public int getAmount()
     {
         return balance;
     }
@@ -80,5 +80,10 @@
     public TicketMachine(String month, int day, int year)
     {
         date = date;
+    }
+    
+    public int getTotal()
+    {
+        return total;
     }
 }
