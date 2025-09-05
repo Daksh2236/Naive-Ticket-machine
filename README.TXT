@@ -23,3 +23,4 @@
     Server
     Person
     Game
+15. The order of which the three words are place does matter because if we look at the class diagram after you can see there are red lines meaning that there are errors
