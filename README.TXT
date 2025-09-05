@@ -8,3 +8,4 @@
 7. the class diagram had red lines on it and when you would try to compile it you get a error message saying "class, 
    interface, enum or record expected"
    I think the message is clear because it tells us what we are missing and it shows red boxes where the code is missing.
+10. The constructor for the class is public TicketMachine(int cost)
