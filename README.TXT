@@ -3,3 +3,5 @@
   to zero
   If you insert to little money the ticket is still able to print
 5. The ticket is different from the first machine, it now says the new value i inputed
+6. public class Student
+   public class LabClass
