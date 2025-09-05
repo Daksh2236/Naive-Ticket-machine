@@ -39,3 +39,4 @@
 27. When you remove the return statement the error message that shows is "not a statement"
 28. The main difference between the methods is their body
 29. The insertMoney and printTicket methods dont have a return statement because when you insert an amount the return statement is the balance and for the print your not looking to get a value back   
+36. The price is still set to 0

@@ -21,14 +21,18 @@
     private int date;
     // The amount of points
     private int score;
+    // Subtract and amount from the price
+    private int discount;
+    // Alive
+    private boolean alive;
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine(int price)
     {
-        price = cost;
+        price = price;
         balance = 0;
         total = 0;
         score = 0;
@@ -67,11 +71,11 @@
     public void printTicket()
     {
         // Simulate the printing of a ticket.
-        System.out.println("##################");
+        System.out.println("My cat has green eyes.");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
         System.out.println("# " + price + " cents.");
-        System.out.println("##################");
+        System.out.println("My cat has green eyes.");
         System.out.println();
 
         // Update the total collected with the balance.
@@ -93,5 +97,22 @@
     public void increaseScore(int points)
     {
         score = score + points;
+    }
+    
+        /**
+    * Reduce price by the given amount.
+    */
+    public void discount(int amount)
+    {
+        discount = price - amount;
+     }
+     
+    public void setAge(int currentAge)
+     {
+         }
+    
+    public void setAge(boolean status)
+    {
+        alive = status;
     }
 }
