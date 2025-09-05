@@ -19,6 +19,8 @@
     private int total;
     // The date of the printed ticket
     private int date;
+    // The amount of points
+    private int score;
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
@@ -29,6 +31,7 @@
         price = cost;
         balance = 0;
         total = 0;
+        score = 0;
     }
 
     /**
@@ -85,5 +88,10 @@
     public int getTotal()
     {
         return total;
+    }
+    
+    public void increaseScore(int points)
+    {
+        score = score + points;
     }
 }
