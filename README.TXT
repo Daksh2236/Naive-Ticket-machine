@@ -35,4 +35,7 @@
     } 
 23. The difference between the headers is that they don't have the same variable name and in the body they do not have the same statement
 24. How much money is in the ticket machine
-25. The return statement does not need to be changed    
+25. The return statement does not need to be changed 
+27. When you remove the return statement the error message that shows is "not a statement"
+28. The main difference between the methods is their body
+29. The insertMoney and printTicket methods dont have a return statement because when you insert an amount the return statement is the balance and for the print your not looking to get a value back   

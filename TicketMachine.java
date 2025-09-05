@@ -43,7 +43,7 @@
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getAmount()
+    public int getBalance()
     {
         return balance;
     }
